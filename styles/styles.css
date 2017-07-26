@@ -1,0 +1,326 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face{
+    font-family:adineue-bd;
+    src:url(../font/AdiHausPS-Bd.otf);	
+}
+
+@font-face{
+    font-family:adineue-md;
+	src:url(../font/AdiHausPS-Md.otf);
+}
+
+@font-face{
+    font-family:adineue-reg;
+	src:url(../font/AdiHausPS-Reg.otf);
+}
+
+@font-face{
+    font-family:adineue-bold;
+	src:url(../font/adineuePRO-Black.otf);
+	}
+
+@font-face{
+    font-family:adineue-pro-black;
+	src:url(../font/adineuePRO-Black.otf);
+	}
+
+body{
+	font-family:adineue-md;
+	/*font-family:adineue;*/
+/*	font-family:Verdana, Geneva, sans-serif;*/
+	font-size:14px;
+	background:#ffffff;
+	}
+a{
+	text-decoration:none;
+	
+	}
+
+figure { 
+    display: block;
+    margin:0 !important;
+}
+
+/* CLearfix */
+
+.clearfix:after {content:".";display:block;	height:0;clear:both;visibility:hidden;}
+.clearfix { display:inline-block; }
+/* Hide from IE Mac \*/
+.clearfix { display:block; }
+* html .clearfix { height:1px; }
+/* End hide from IE Mac */
+
+h1, h2, h3, h4{
+	font-weight:normal !important;
+	margin:0 !important;
+	padding:0 !important;
+	}
+
+.txt21bold{
+	color:#000 !important;
+	text-transform:uppercase;
+	font-size:21px;
+	font-weight:bold;
+	font-family:adineue-pro-black;
+	}
+.txt21boldwhite{
+	color:#ffffff !important;
+	text-transform:uppercase;
+	font-size:21px;
+	font-weight:bold;
+	font-family:adineue-pro-black;
+	}
+.txt21boldred{
+	color:#b71c11 !important;
+	text-transform:uppercase;
+	font-size:21px;
+	font-weight:bold;
+	font-family:adineue-pro-black;
+	}
+.txt18bold{
+	color:#000 !important;
+	text-transform:uppercase;
+	font-size:18px;
+	font-family:adineue-md;
+	font-weight:bold;
+	}
+.txt14bold{
+	color:#000 !important;
+	text-transform:uppercase;
+	font-size:14px;
+	font-family:adineue-bold;
+		line-height:0.9em;
+	}
+.txt14boldrojo{
+	color:#b71c11 !important;
+	text-transform:uppercase;
+	font-size:14px;
+	font-family:adineue-bold;
+	}
+.txt14boldwhite{
+	color:#ffffff !important;
+	text-transform:uppercase;
+	font-size:14px;
+	font-family:adineue-bold;
+	}
+.txt14normal{
+	color:#000 !important;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:0.9em;
+	}
+.txt14normalbaja{
+	color:#000 !important;	
+	font-size:14px;
+	text-align:justify;
+	line-height:1em;
+	}
+.txt14normalwhite{
+	color:#ffffff !important;
+	text-transform:uppercase;
+	font-size:14px;
+	}
+.txt14normalred{
+	color:#b71c11 !important;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:1.25em !important;
+	}
+
+.txt14normalwhite2{
+	color:#ffffff !important;
+	text-transform:uppercase;
+	font-size:13px;
+	line-height:1em;
+	}
+
+
+h3{
+
+	}
+
+p{
+
+	padding: 5px 0;
+	text-align: justify;
+	color: #3b4347;	
+	line-height: 20px;
+	}
+
+#contenedor{
+	position: relative;
+	max-width:700px;
+	height:auto;
+	margin:0 auto;
+	background:white;	
+	}
+
+#head{
+	width:100%;
+	height:120px;
+	background:#000;
+	}
+
+#head h1{
+	font-size:
+	}
+	
+#bloqu1{
+	width:100%;
+	height:337px;
+	background:url(../img/trauco.jpg) center no-repeat;
+	
+	}
+
+#bloqu2{
+	width:100%;
+	height:205px;
+	background:url(../img/paolo-guerrero.jpg) center no-repeat;
+	}
+
+#bloqu3{
+	width:100%;
+	height:315px;
+	background:url(../img/angela.jpg) center no-repeat;
+	}
+#bloqu4{
+	width:100%;
+	height:300px;
+	background:url(../img/kevin.jpg) center no-repeat;
+	}
+
+#bloqu5{
+	width:100%;
+	height:299px;
+	background:url(../img/raza-celeste.jpg) center no-repeat;
+	}
+
+#bloqu6{
+	width:100%;
+	height:248px;
+	background:url(../img/ruidiaz.jpg) center no-repeat;
+	}
+
+#bloqu7{
+	width:100%;
+	height:300px;
+	background:url(../img/andy.jpg) center no-repeat;
+	}
+
+#bloqu8{
+	width:100%;
+	height:1070px;
+	background:#c1c2bf;
+	}
+
+#bloqu8-1{
+	width:100%;
+	height:145px;
+	background:#c1c2bf;
+	}
+#blo-video{
+	width:193px;
+	height:108px;
+	margin:30px 33px 0 0;
+	float:right !important;
+	}
+
+#gloque-black{
+	width:100%;
+	height:100px;
+	background:#000;
+	}
+
+#bloque-texto1{
+	width:355px;
+	height:100px;
+	float:right !important;
+	margin:20px 20px 0 0;
+	}
+
+#bloque-texto2{
+	width:355px;
+	height:100px;
+	float:right !important;
+	margin:20px 20px 0 0;
+	}
+
+#bloque-texto3{
+	width:355px;
+	height:100px;
+	float:right !important;
+	margin:20px 20px 0 0;
+	letter-spacing:-0.75px;
+	}
+
+#bloque-texto4{
+	width:370px;
+	height:145px;
+	float:left !important;
+	margin:20px 0 0 20px;
+	}
+
+#bloque-texto5{
+	width:300px;
+	height:155px;
+	float:left !important;
+	margin:125px 0 0 20px;
+
+	}
+
+#bloque-texto6{
+	width:300px;
+	height:155px;
+	float:left !important;
+	margin:20px 0 0 20px;
+	}
+
+#bloque-texto7{
+	width:370px;
+	height:250px;
+	float:left !important;
+	margin:20px 0 0 20px;
+	}
+
+#bloque-rincon{
+	width: 700px;
+	position: absolute;
+	height: 162px;
+	background: url(../img/el-rincon-del-macho.png) no-repeat center;
+	left:0;
+	top: 2091px;
+	z-index:1000;
+	}
+
+#bloque-texto8-1{
+	width:440px;
+	height:100px;
+	float:left !important;
+	margin:20px 0 0 20px;
+	}
+
+#bloque-barra{
+	width:90%;
+	height:4px;
+	background:#231f20;
+	margin:0 auto;
+	}
+
+#bloque-cierre{
+	width:100%;
+	height:auto;
+
+	}
+#bloque-texto-cierre{
+	width:520px;
+	height:100px;
+	float:left !important;
+	margin:20px 0 0 20px;
+	}
